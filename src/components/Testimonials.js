@@ -2,7 +2,6 @@ import React from 'react'
 import styled from "styled-components"
 import Img from 'gatsby-image'
 import {ImLocation} from "react-icons/im"
-import {BsFillHouseDoorFill} from "react-icons/Bs"
 import {useStaticQuery, graphql} from 'gatsby'
 
 const Testimonials = () => {
@@ -43,13 +42,7 @@ const Testimonials = () => {
                         <p>De mooiste ervaring van mijn leven. Schitterende plekken gezien</p>
                     </Testimonial>
                     <Testimonial>
-                        <BsFillHouseDoorFill 
-                            css={`
-                                color: #f9b19b;
-                                font-size: 2rem;
-                                margin-bottom: 1rem;
-                            `}
-                        />
+                        
                         <h3>Turist Grabovac</h3>
                         <p>We verbleven in een bungalow op camping Turist Grabovac.</p>
                         <p>Deze terrassencamping en camping met hellend terrein heeft plaatsen met afbakening, met schaduw, zonder schaduw en met enige schaduw.</p> 
