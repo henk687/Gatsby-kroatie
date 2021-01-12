@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../assets/images/rastoke.jpg",
+        "alt": "Rastoke",
+        "name": "Rastoke",
+        "button": "Bekijk Bestemming"
+    },
+    {
+        "img": "../assets/images/plitvice.jpg",
+        "alt": "Plitvice Meren",
+        "name": "Plitvice Meren",
+        "button": "Bekijk Bestemming"
+    },
+    {
+        "img": "../assets/images/velebit.jpg",
+        "alt": "Velebit Gebergte",
+        "name": "Velebit Gebergte",
+        "button": "Bekijk Bestemming"
+    },
+    {
+        "img": "../assets/images/kornati.jpg",
+        "alt": "Kornati Eilanden",
+        "name": "Kornati Eilanden",
+        "button": "Bekijk Bestemming"
+    }
+]
