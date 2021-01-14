@@ -64,7 +64,8 @@ export default Testimonials
 
 const TestimonialsContainer = styled.div`
     width: 100%;
-    background: #fcfcfc;
+    /*background: #fcfcfc;*/
+    background: #020312;
     color: #000;
     padding: 5rem calc((100vw - 1300px) / 2);
     height: 100%;
@@ -83,6 +84,7 @@ const Description = styled.p`
     margin-bottom: 4rem;
     font-size: clamp(1.5rem, 6vw, 4rem);
     font-weight: bold;
+    color: #fff;
 `
 
 const Contentwrapper = styled.div`
@@ -108,10 +110,12 @@ const Testimonial = styled.div`
         margin-bottom: 1rem;
         font-size: 1.5rem;
         font-style: italic;
+        color: #f26a2e;
     }
 
     p {
-        color: 3b3b3b;
+        /*color: 3b3b3b;*/
+        color: #fff;
     }
 `
 

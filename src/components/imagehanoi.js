@@ -22,7 +22,7 @@ const Image = () => {
     `)
 
   return (
-    <div className="image-container">
+    <div className="image-container-black">
       <h1>Rastoke</h1>
       <div className="image-grid">
       {data.allFile.edges.map((image, key) => (

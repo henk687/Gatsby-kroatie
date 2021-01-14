@@ -6,6 +6,11 @@ import { Button } from './Button'
 const Email = () => {
     return (
         <EmailContainer>
+            <div className="wave-transparent2">
+      <svg className="svgwave" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270" >
+      <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="#020312" strokeWidth="120" strokeLinecap="round"/>
+      </svg>
+    </div>
             <EmailContent>
                 <h1>Deel je mooiste reis moment</h1>
                 <p>Deel met ons je mooiste reis of je favoriete vakantie moment</p>
@@ -38,6 +43,11 @@ const Email = () => {
                     </FomWrap>
                 </form>
             </EmailContent>
+            <div className="wave-transparent">
+      <svg className="svgwave" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270" >
+      <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="#020312" strokeWidth="120" strokeLinecap="round"/>
+      </svg>
+    </div>
         </EmailContainer>
     )
 }
@@ -45,11 +55,12 @@ const Email = () => {
 export default Email
 
 const EmailContainer = styled.div`
+    position: relative;
     background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%,  rgba(0,0,0,0.5) 35%,  rgba(0,0,0,0.1) 100%), url(${EmailBg}) no-repeat center;
     background-size: cover;
     height: 450px;
     width: 100%;
-    padding: 5rem calc((100vw - 1300px) / 2);
+    padding: 25rem calc((100vw - 1300px) / 2);
     color: #fff;
     display: flex;
     justify-content: center;

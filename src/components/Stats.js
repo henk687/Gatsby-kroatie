@@ -74,8 +74,10 @@ export default Stats
 
 const StatsContainer = styled.div`
     width: 100%;
-    background: #fff;
-    color: #000;
+    /*background: #fff;*/
+    background: #181a25;
+    /*color: #000;*/
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,9 +116,10 @@ const Icon = styled.div`
 
 const Title = styled.p`
     font-size: clamp(1rem, 2.5vw, 1.5rem);
-    margin-bottom: 0.5rem;    
+    margin-bottom: 0.5rem;  
+    color: #f26a2e;  
 `
 
 const Description = styled.p`
-     
+    color: #fff;
 `

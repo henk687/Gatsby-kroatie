@@ -74,12 +74,14 @@ const ProductsContainer = styled.div`
     min-height: 100vh;
     padding: 5rem calc((100vw - 1300px) / 2);
     color: #fff;
+    background: #181a25;
 `
 const ProductsHeading = styled.div`
     font-size: clamp(1.2rem, 5vw, 3rem);
     text-align: center;
     margin-bottom: 5rem;
-    color: #000;
+    /*color: #000;*/
+    color: #fff;
 `
 
 const ProductWrapper = styled.div`
@@ -140,5 +142,5 @@ const TextWrap = styled.div`
 const ProductTitle = styled.div`
     font-weight: 400;
     font-size: 1rem;
-    margin-left: 0.5rem
+    margin-left: 0.5rem;
 `
