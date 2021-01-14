@@ -26,7 +26,7 @@ const Testimonials = () => {
                 Bestemming
             </Topline>
             <Description>
-                Turist Grabovac in Kroatië
+                Rastoke
             </Description>
             <Contentwrapper>
                 <ColumnOne>
@@ -38,17 +38,14 @@ const Testimonials = () => {
                                 margin-bottom: 1rem;
                             `}
                         />
-                        <h3>Kroatië</h3>
-                        <p>Kroatië, officieel Republiek Kroatië, is een land in Zuidoost-Europa.</p>
-                        <p>Het grenst aan Slovenië en Hongarije in het noorden, Bosnië en Montenegro in het zuiden en Servië in het oosten.</p> 
-                        <p>In het westen ligt de Adriatische Zee, waar de Kroatische territoriale wateren grenzen aan die van Italië.</p>
+                        <h3>Locatie</h3>
+                        <p>Rastoke is een dorp, gelegen in de stad Slunj. Op zo’n 1,5 rijden van Zagreb in de regio Kordun.</p>
                     </Testimonial>
                     <Testimonial>
                         
-                        <h3>Turist Grabovac</h3>
-                        <p>We verbleven in een bungalow op camping Turist Grabovac.</p>
-                        <p>Deze terrassencamping en camping met hellend terrein heeft plaatsen met afbakening, met schaduw, zonder schaduw en met enige schaduw.</p> 
-                        <p>Er is mogelijkheid tot het huren van kamers, Studio's, appartementen en bungalows.</p>
+                        <h3>Informatie</h3>
+                        <p>Rastoke staat bekend om de goed bewaarde molens, de vele watervallen en de Slunjčica-rivier die hier samenkomt met de rivier de Korana. </p>
+                        <p>De Korana rivier ontstaat in het nationaal park Plitvice dat maar 33 km verderop ligt. Het is dan ook niet gek dat Rastoke ook wel “klein Plitvice” wordt genoemd!</p> 
                     </Testimonial>
                 </ColumnOne>
                 <ColumnTwo>

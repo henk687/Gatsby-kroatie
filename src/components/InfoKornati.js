@@ -26,7 +26,7 @@ const Testimonials = () => {
                 Bestemming
             </Topline>
             <Description>
-                Turist Grabovac in Kroatië
+                Kornati Eilanden
             </Description>
             <Contentwrapper>
                 <ColumnOne>
@@ -38,17 +38,16 @@ const Testimonials = () => {
                                 margin-bottom: 1rem;
                             `}
                         />
-                        <h3>Kroatië</h3>
-                        <p>Kroatië, officieel Republiek Kroatië, is een land in Zuidoost-Europa.</p>
-                        <p>Het grenst aan Slovenië en Hongarije in het noorden, Bosnië en Montenegro in het zuiden en Servië in het oosten.</p> 
-                        <p>In het westen ligt de Adriatische Zee, waar de Kroatische territoriale wateren grenzen aan die van Italië.</p>
+                        <h3>Locatie</h3>
+                        <p>de Kornati-archipel is een Kroatische archipel in de Adriatische Zee, ten zuiden van de stad Zadar.</p>
                     </Testimonial>
                     <Testimonial>
                         
-                        <h3>Turist Grabovac</h3>
-                        <p>We verbleven in een bungalow op camping Turist Grabovac.</p>
-                        <p>Deze terrassencamping en camping met hellend terrein heeft plaatsen met afbakening, met schaduw, zonder schaduw en met enige schaduw.</p> 
-                        <p>Er is mogelijkheid tot het huren van kamers, Studio's, appartementen en bungalows.</p>
+                        <h3>Informatie</h3>
+                        <p>Met hun immense natuurlijke schoonheid, diverse kusten en bewaard marien ecosysteem, werd het grootste deel van de Kornati eilanden uitgeroepen tot een nationaal park in 1980.</p> 
+                        <p>Het Nationaal Park Kornati telt ongeveer 220 km2 en bestaat uit 89 eilanden, eilandjes en riffen. </p> 
+                        <p>Het Nationaal Park Kornati is vernoemd naar het grootste eiland binnen de groep - Kornat.</p> 
+                        <p>Op de rotsen bloeit er plantelven. Naast het kristalhelder water, kunt u ook allerlei riffen, schaaldieren en vele soorten vis ontdekken.</p>
                     </Testimonial>
                 </ColumnOne>
                 <ColumnTwo>
@@ -67,7 +66,7 @@ export default Testimonials
 const TestimonialsContainer = styled.div`
     width: 100%;
     /*background: #fcfcfc;*/
-    background: #020312;
+    background: #181a25;
     color: #000;
     padding: 5rem calc((100vw - 1300px) / 2);
     height: 100%;

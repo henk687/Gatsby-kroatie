@@ -26,7 +26,7 @@ const Testimonials = () => {
                 Bestemming
             </Topline>
             <Description>
-                Turist Grabovac in Kroatië
+                Plitvice Meren
             </Description>
             <Contentwrapper>
                 <ColumnOne>
@@ -38,17 +38,15 @@ const Testimonials = () => {
                                 margin-bottom: 1rem;
                             `}
                         />
-                        <h3>Kroatië</h3>
-                        <p>Kroatië, officieel Republiek Kroatië, is een land in Zuidoost-Europa.</p>
-                        <p>Het grenst aan Slovenië en Hongarije in het noorden, Bosnië en Montenegro in het zuiden en Servië in het oosten.</p> 
-                        <p>In het westen ligt de Adriatische Zee, waar de Kroatische territoriale wateren grenzen aan die van Italië.</p>
+                        <h3>Locatie</h3>
+                        <p>Het Nationaal Park Plitvicemeren is een nationaal park in de provincie Lika-Senj dicht bij Plitvička Jezera in Kroatië.</p>
                     </Testimonial>
                     <Testimonial>
                         
-                        <h3>Turist Grabovac</h3>
-                        <p>We verbleven in een bungalow op camping Turist Grabovac.</p>
-                        <p>Deze terrassencamping en camping met hellend terrein heeft plaatsen met afbakening, met schaduw, zonder schaduw en met enige schaduw.</p> 
-                        <p>Er is mogelijkheid tot het huren van kamers, Studio's, appartementen en bungalows.</p>
+                        <h3>Informatie</h3>
+                        <p>Plitvice staat bekend om de 90 prachtige watervallen, de 16 smaragdgroene meren en de ongerepte natuur. </p>
+                        <p>Vanwege deze bijzondere natuur hebben de Plitvice meren dan ook de status nationaal park gekregen. </p> 
+                        <p>Het park heeft een oppervlakte van bijna 300 km2. Dit is dan ook het grootste en oudste nationaal park van Kroatië.</p>
                     </Testimonial>
                 </ColumnOne>
                 <ColumnTwo>
@@ -67,7 +65,7 @@ export default Testimonials
 const TestimonialsContainer = styled.div`
     width: 100%;
     /*background: #fcfcfc;*/
-    background: #020312;
+    background: #181a25;
     color: #000;
     padding: 5rem calc((100vw - 1300px) / 2);
     height: 100%;

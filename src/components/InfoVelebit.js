@@ -26,7 +26,7 @@ const Testimonials = () => {
                 Bestemming
             </Topline>
             <Description>
-                Turist Grabovac in Kroatië
+                Velebit Gebergte
             </Description>
             <Contentwrapper>
                 <ColumnOne>
@@ -38,17 +38,15 @@ const Testimonials = () => {
                                 margin-bottom: 1rem;
                             `}
                         />
-                        <h3>Kroatië</h3>
-                        <p>Kroatië, officieel Republiek Kroatië, is een land in Zuidoost-Europa.</p>
-                        <p>Het grenst aan Slovenië en Hongarije in het noorden, Bosnië en Montenegro in het zuiden en Servië in het oosten.</p> 
-                        <p>In het westen ligt de Adriatische Zee, waar de Kroatische territoriale wateren grenzen aan die van Italië.</p>
+                        <h3>Locatie</h3>
+                        <p>Velebit is een gebergte in het midden van Kroatië, langs de Dalmatische kust van de Adriatische Zee.</p> 
+                        <p>Het massief loopt van het Noordwesten nabij Senj tot 145 km Zuidwesterlijker bij de bron van de rivier Zrmanja.</p>
                     </Testimonial>
                     <Testimonial>
                         
-                        <h3>Turist Grabovac</h3>
-                        <p>We verbleven in een bungalow op camping Turist Grabovac.</p>
-                        <p>Deze terrassencamping en camping met hellend terrein heeft plaatsen met afbakening, met schaduw, zonder schaduw en met enige schaduw.</p> 
-                        <p>Er is mogelijkheid tot het huren van kamers, Studio's, appartementen en bungalows.</p>
+                        <h3>Informatie</h3>
+                        <p>Velebit heeft zijn status als nationaal park gekregen vanwege de vele diersoorten die hier leven zoals bijvoorbeeld de bruine beer en de verscheidenheid aan planten waaronder een groot aantal inheemse.  </p>
+                        <p>Daarnaast is het berggebied met bergtoppen die boven de 1600/1700 meter uitkomen en van waar je een uitkijkt over de Adriatische zee ook echt prachtig.</p> 
                     </Testimonial>
                 </ColumnOne>
                 <ColumnTwo>
