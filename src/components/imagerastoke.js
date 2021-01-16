@@ -7,11 +7,11 @@ import "./image.css"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-        allFile(filter: {ext: {regex: "/(jpg)|(png)|(jepg)/"}, name: {nin: ["kroatievlag", "vakantiehuis"]}}) {
+        allFile(filter: {extension: {regex: "/(jpg)|(png)|(jepg)/"}, name: {in: ["rastoke", "rastoke2", "rastoke3", "rastoke4", "rastoke5", "rastoke6", "rastoke7", "rastoke8"]}}) {
           edges {
             node {
               childImageSharp {
-                fluid(maxHeight: 600, maxWidth: 600) {
+                fluid(maxHeight: 600, maxWidth: 1000) {
                     ...GatsbyImageSharpFluid
                 }
               }
@@ -23,7 +23,7 @@ const Image = () => {
 
   return (
     <div className="image-container">
-      <h1>Kornati Eilanden</h1>
+      <h1>Rastoke</h1>
       <div className="image-grid">
       {data.allFile.edges.map((image, key) => (
           <Img key={key}

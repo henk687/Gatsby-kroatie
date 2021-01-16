@@ -36,7 +36,8 @@ export const GlobalStyle = createGlobalStyle`
   height: 250px;
   width: 100%;
   background: transparent;
-  background-image: linear-gradient(155deg, #181a25 0%, #181a25 50%, #181a25 100%);
+  background-image: linear-gradient(155deg, transparent 0%, transparent 50%, transparent 100%);
+  transform: rotate(180deg);
 }
 .wave-home {
   position: absolute;

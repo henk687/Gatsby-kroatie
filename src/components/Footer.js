@@ -10,13 +10,7 @@ const Footer = () => {
                     <h1>Kroatië</h1>
                     <p>Rondreis 2013</p>
                 </FooterDesc>
-                <FooterLinkItems>
-                    <FooterLinkTitle>Pagina's</FooterLinkTitle>
-                    <FooterLink to="/">Home</FooterLink>
-                    <FooterLink to="/bestemmingen">Bestemmingen</FooterLink>
-                    <FooterLink to="/afbeeldingen">Afbeeldingen</FooterLink>
-                    <FooterLink to="/contact">Contact</FooterLink>
-                </FooterLinkItems>
+                
             </FooterLinksWrapper>
             <FooterLinksWrapper>
                 <FooterLinkItems>
