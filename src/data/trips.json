@@ -1,24 +1,24 @@
 [
     {
-        "img": "../assets/images/rastoke.jpg",
+        "img": "../assets/images/rastoketrips.jpg",
         "alt": "Rastoke",
         "name": "Rastoke",
         "button": "Bekijk Bestemming"
     },
     {
-        "img": "../assets/images/plitvice.jpg",
+        "img": "../assets/images/plitvicetrips.jpg",
         "alt": "Plitvice Meren",
         "name": "Plitvice Meren",
         "button": "Bekijk Bestemming"
     },
     {
-        "img": "../assets/images/velebit.jpg",
+        "img": "../assets/images/velebittrips.jpg",
         "alt": "Velebit Gebergte",
         "name": "Velebit Gebergte",
         "button": "Bekijk Bestemming"
     },
     {
-        "img": "../assets/images/kornati.jpg",
+        "img": "../assets/images/kornatitrips.jpg",
         "alt": "Kornati Eilanden",
         "name": "Kornati Eilanden",
         "button": "Bekijk Bestemming"
