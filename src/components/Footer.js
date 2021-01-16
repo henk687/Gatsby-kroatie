@@ -14,11 +14,11 @@ const Footer = () => {
             </FooterLinksWrapper>
             <FooterLinksWrapper>
                 <FooterLinkItems>
-                    <FooterLinkTitle>Foto's</FooterLinkTitle>
-                    <FooterLink to="/about">Contact</FooterLink>
-                    <FooterLink to="/about">Contact</FooterLink>
-                    <FooterLink to="/about">Contact</FooterLink>
-                    <FooterLink to="/about">Contact</FooterLink>
+                    <FooterLinkTitle>Pagina's</FooterLinkTitle>
+                    <FooterLink to="/">Home</FooterLink>
+                    <FooterLink to="/bestemmingen">Bestemmingen</FooterLink>
+                    <FooterLink to="/contact">Contact</FooterLink>
+                    <FooterLink to="/afbeeldingen">Afbeeldingen</FooterLink>
                 </FooterLinkItems>
                 <FooterLinkItems>
                     <FooterLinkTitle>Vlag</FooterLinkTitle>
