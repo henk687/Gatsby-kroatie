@@ -7,7 +7,7 @@ import "./image.css"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-        allFile(filter: {extension: {regex: "/(jpg)|(png)|(jepg)/"}, name: {in: ["rastoke", "rastoke2", "rastoke3", "rastoke4", "rastoke5", "rastoke6", "rastoke7", "rastoke8"]}}) {
+        allFile(filter: {extension: {regex: "/(jpg)|(png)|(jepg)/"}, name: {in: ["rastoke", "rastoke2", "rastoke3", "rastoke4", "rastoke5", "rastoke6", "rastoke7", "rastoke8", "rastoke9", "rastoke10"]}}) {
           edges {
             node {
               childImageSharp {
