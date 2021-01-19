@@ -23,7 +23,7 @@ const Image = () => {
 
   return (
     <div className="image-container">
-      <h1>Eten en Drinken</h1>
+      <h1 data-sal="slide-up" data-sal-duration= "2000" data-sal-delay="100" data-sal-easing="ease">Eten en Drinken</h1>
       <div className="image-grid">
       {data.allFile.edges.map((image, key) => (
           <Img key={key}

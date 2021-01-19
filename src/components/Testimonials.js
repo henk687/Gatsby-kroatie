@@ -22,15 +22,15 @@ const Testimonials = () => {
     `)
     return (
         <TestimonialsContainer>
-            <Topline>
-                Bestemming
+            <Topline data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
+                    Bestemming
             </Topline>
-            <Description>
-                Turist Grabovac in Kroatië
+            <Description data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
+                    Turist Grabovac in Kroatië
             </Description>
             <Contentwrapper>
                 <ColumnOne>
-                    <Testimonial>
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <ImLocation
                             css={`
                                 color: #3fffa8;
@@ -42,8 +42,8 @@ const Testimonials = () => {
                         <p>Kroatië, officieel Republiek Kroatië, is een land in Zuidoost-Europa.</p>
                         <p>Het grenst aan Slovenië en Hongarije in het noorden, Bosnië en Montenegro in het zuiden en Servië in het oosten.</p> 
                         <p>In het westen ligt de Adriatische Zee, waar de Kroatische territoriale wateren grenzen aan die van Italië.</p>
-                    </Testimonial>
-                    <Testimonial>
+                    </Testimonial >
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         
                         <h3>Turist Grabovac</h3>
                         <p>We verbleven in een bungalow op camping Turist Grabovac.</p>
@@ -51,7 +51,7 @@ const Testimonials = () => {
                         <p>Er is mogelijkheid tot het huren van kamers, Studio's, appartementen en bungalows.</p>
                     </Testimonial>
                 </ColumnOne>
-                <ColumnTwo>
+                <ColumnTwo data-sal="slide-down" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                     {data.allFile.edges.map((image, key) => (
                         <Images key={key} fluid={image.node.childImageSharp.fluid}/>
                     ))}

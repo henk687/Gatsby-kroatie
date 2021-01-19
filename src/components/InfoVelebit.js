@@ -22,15 +22,15 @@ const Testimonials = () => {
     `)
     return (
         <TestimonialsContainer>
-            <Topline>
+            <Topline data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Bestemming
             </Topline>
-            <Description>
+            <Description data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Velebit Gebergte
             </Description>
             <Contentwrapper>
                 <ColumnOne>
-                    <Testimonial>
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <ImLocation
                             css={`
                                 color: #3fffa8;
@@ -42,14 +42,14 @@ const Testimonials = () => {
                         <p>Velebit is een gebergte in het midden van Kroatië, langs de Dalmatische kust van de Adriatische Zee.</p> 
                         <p>Het massief loopt van het Noordwesten nabij Senj tot 145 km Zuidwesterlijker bij de bron van de rivier Zrmanja.</p>
                     </Testimonial>
-                    <Testimonial>
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         
                         <h3>Informatie</h3>
                         <p>Velebit heeft zijn status als nationaal park gekregen vanwege de vele diersoorten die hier leven zoals bijvoorbeeld de bruine beer en de verscheidenheid aan planten waaronder een groot aantal inheemse.  </p>
                         <p>Daarnaast is het berggebied met bergtoppen die boven de 1600/1700 meter uitkomen en van waar je een uitkijkt over de Adriatische zee ook echt prachtig.</p> 
                     </Testimonial>
                 </ColumnOne>
-                <ColumnTwo>
+                <ColumnTwo data-sal="slide-down" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                     {data.allFile.edges.map((image, key) => (
                         <Images key={key} fluid={image.node.childImageSharp.fluid}/>
                     ))}

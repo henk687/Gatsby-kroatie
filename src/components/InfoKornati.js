@@ -22,15 +22,15 @@ const Testimonials = () => {
     `)
     return (
         <TestimonialsContainer>
-            <Topline>
+            <Topline data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Bestemming
             </Topline>
-            <Description>
+            <Description data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Kornati Eilanden
             </Description>
             <Contentwrapper>
                 <ColumnOne>
-                    <Testimonial>
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <ImLocation
                             css={`
                                 color: #3fffa8;
@@ -41,7 +41,7 @@ const Testimonials = () => {
                         <h3>Locatie</h3>
                         <p>de Kornati-archipel is een Kroatische archipel in de Adriatische Zee, ten zuiden van de stad Zadar.</p>
                     </Testimonial>
-                    <Testimonial>
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         
                         <h3>Informatie</h3>
                         <p>Met hun immense natuurlijke schoonheid, diverse kusten en bewaard marien ecosysteem, werd het grootste deel van de Kornati eilanden uitgeroepen tot een nationaal park in 1980.</p> 
@@ -50,7 +50,7 @@ const Testimonials = () => {
                         <p>Op de rotsen bloeit er plantelven. Naast het kristalhelder water, kunt u ook allerlei riffen, schaaldieren en vele soorten vis ontdekken.</p>
                     </Testimonial>
                 </ColumnOne>
-                <ColumnTwo>
+                <ColumnTwo data-sal="slide-down" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                     {data.allFile.edges.map((image, key) => (
                         <Images key={key} fluid={image.node.childImageSharp.fluid}/>
                     ))}

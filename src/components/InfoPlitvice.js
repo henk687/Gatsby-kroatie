@@ -22,15 +22,15 @@ const Testimonials = () => {
     `)
     return (
         <TestimonialsContainer>
-            <Topline>
+            <Topline data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Bestemming
             </Topline>
-            <Description>
+            <Description data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Plitvice Meren
             </Description>
             <Contentwrapper>
                 <ColumnOne>
-                    <Testimonial>
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease"l>
                         <ImLocation
                             css={`
                                 color: #3fffa8;
@@ -41,7 +41,7 @@ const Testimonials = () => {
                         <h3>Locatie</h3>
                         <p>Het Nationaal Park Plitvicemeren is een nationaal park in de provincie Lika-Senj dicht bij Plitvička Jezera in Kroatië.</p>
                     </Testimonial>
-                    <Testimonial>
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         
                         <h3>Informatie</h3>
                         <p>Plitvice staat bekend om de 90 prachtige watervallen, de 16 smaragdgroene meren en de ongerepte natuur. </p>
@@ -49,7 +49,7 @@ const Testimonials = () => {
                         <p>Het park heeft een oppervlakte van bijna 300 km2. Dit is dan ook het grootste en oudste nationaal park van Kroatië.</p>
                     </Testimonial>
                 </ColumnOne>
-                <ColumnTwo>
+                <ColumnTwo data-sal="slide-down" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                     {data.allFile.edges.map((image, key) => (
                         <Images key={key} fluid={image.node.childImageSharp.fluid}/>
                     ))}

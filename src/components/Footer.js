@@ -21,11 +21,8 @@ const Footer = () => {
                     <FooterLink to="/afbeeldingen">Afbeeldingen</FooterLink>
                 </FooterLinkItems>
                 <FooterLinkItems>
-                    <FooterLinkTitle>Vlag</FooterLinkTitle>
-                    <FooterLink to="/about">Contact</FooterLink>
-                    <FooterLink to="/about">Contact</FooterLink>
-                    <FooterLink to="/about">Contact</FooterLink>
-                    <FooterLink to="/about">Contact</FooterLink>
+                    <FooterLinkTitle>Social Media</FooterLinkTitle>
+                    <FooterLink to="/about">Instagram</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
         </FooterContainer>

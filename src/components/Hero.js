@@ -10,10 +10,17 @@ const Hero = () => {
                     <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInline/>
                 </HeroBg>
                 <HeroContent>
-                    <HeroItems>
-                        <HeroH1>Kroatië</HeroH1>
-                        <HeroP>Rondreis 2013</HeroP>
-                        <Button primary="true" big="true" round="true" to="/bestemmingen">Reis nu</Button>
+                    <HeroItems  data-sal="slide-up"
+                                data-sal-delay="300"
+                                data-sal-duration= "1000"
+                                data-sal-easing="ease">
+                        <HeroH1>
+                                    Kroatië
+                        </HeroH1>
+                        <HeroP>
+                                    Rondreis 2013
+                        </HeroP>
+                        <Button  primary="true" big="true" round="true" to="/bestemmingen">Reis nu</Button>
                     </HeroItems>
                 </HeroContent>
             </HeroContainer>

@@ -63,7 +63,13 @@ function getTrips(data) {
     return (
         <ProductsContainer>
             <ProductsHeading>{heading}</ProductsHeading>
-            <ProductWrapper>{getTrips(data)}</ProductWrapper>
+            <ProductWrapper data-sal="slide-down"
+                            data-sal-duration= "2000"
+                            data-sal-delay="300"
+                            once = "false"
+                            data-sal-easing="ease">
+                                {getTrips(data)}
+            </ProductWrapper>
         </ProductsContainer>
     )
 }

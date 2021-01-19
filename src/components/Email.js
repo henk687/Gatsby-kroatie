@@ -12,10 +12,19 @@ const Email = () => {
       </svg>
     </div>
             <EmailContent>
-                <h1>Deel je mooiste reis moment</h1>
-                <p>Deel met ons je mooiste reis of je favoriete vakantie moment</p>
+                <h1 data-sal="slide-down"
+                            data-sal-duration= "1500"
+                            data-sal-delay="300"
+                            data-sal-easing="ease">Deel je mooiste reis moment</h1>
+                <p data-sal="slide-down"
+                            data-sal-duration= "1500"
+                            data-sal-delay="300"
+                            data-sal-easing="ease">Deel met ons je mooiste reis of je favoriete vakantie moment</p>
                 <form action="#">
-                    <FomWrap>
+                    <FomWrap data-sal="zoom-in"
+                            data-sal-duration= "500"
+                            data-sal-delay="400"
+                            data-sal-easing="ease">
                         <label htmlFor="email">
                             <input type="email" placeholder="Vul je email adres in" id="email"/>
                         </label>

@@ -42,5 +42,6 @@ module.exports = {
         path: `./src/data/`,
       },
     },
+    `gatsby-plugin-scroll-reveal`
   ],
 }

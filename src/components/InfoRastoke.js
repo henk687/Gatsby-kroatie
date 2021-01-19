@@ -22,15 +22,15 @@ const Testimonials = () => {
     `)
     return (
         <TestimonialsContainer>
-            <Topline>
+            <Topline data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Bestemming
             </Topline>
-            <Description>
+            <Description data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Rastoke
             </Description>
             <Contentwrapper>
                 <ColumnOne>
-                    <Testimonial>
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <ImLocation
                             css={`
                                 color: #3fffa8;
@@ -41,14 +41,14 @@ const Testimonials = () => {
                         <h3>Locatie</h3>
                         <p>Rastoke is een dorp, gelegen in de stad Slunj. Op zo’n 1,5 rijden van Zagreb in de regio Kordun.</p>
                     </Testimonial>
-                    <Testimonial>
+                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         
                         <h3>Informatie</h3>
                         <p>Rastoke staat bekend om de goed bewaarde molens, de vele watervallen en de Slunjčica-rivier die hier samenkomt met de rivier de Korana. </p>
                         <p>De Korana rivier ontstaat in het nationaal park Plitvice dat maar 33 km verderop ligt. Het is dan ook niet gek dat Rastoke ook wel “klein Plitvice” wordt genoemd!</p> 
                     </Testimonial>
                 </ColumnOne>
-                <ColumnTwo>
+                <ColumnTwo data-sal="slide-down" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                     {data.allFile.edges.map((image, key) => (
                         <Images key={key} fluid={image.node.childImageSharp.fluid}/>
                     ))}

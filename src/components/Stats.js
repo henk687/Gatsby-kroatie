@@ -54,8 +54,14 @@ const StatsData = [
 const Stats = () => {
     return (
         <StatsContainer>
-            <Heading>Statistieken</Heading>
-            <Wrapper>
+            <Heading data-sal="slide-right"
+                            data-sal-duration= "2000"
+                            data-sal-delay="300"
+                            data-sal-easing="ease">Statistieken</Heading>
+            <Wrapper data-sal="slide-right"
+                            data-sal-duration= "2000"
+                            data-sal-delay="300"
+                            data-sal-easing="ease">
                 {StatsData.map((item, index) => {
                     return (
                         <StatsBox key={index}>
