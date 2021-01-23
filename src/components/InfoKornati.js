@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import Img from 'gatsby-image'
 import {ImLocation} from "react-icons/im"
+import {IoMdInformationCircleOutline} from "react-icons/io"
 import {useStaticQuery, graphql} from 'gatsby'
 
 const Testimonials = () => {
@@ -42,7 +43,13 @@ const Testimonials = () => {
                         <p>de Kornati-archipel is een Kroatische archipel in de Adriatische Zee, ten zuiden van de stad Zadar.</p>
                     </Testimonial>
                     <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
-                        
+                        <IoMdInformationCircleOutline
+                            css={`
+                                color: #b210a8;
+                                font-size: 2rem;
+                                margin-bottom: 1rem;
+                            `}
+                        />
                         <h3>Informatie</h3>
                         <p>Met hun immense natuurlijke schoonheid, diverse kusten en bewaard marien ecosysteem, werd het grootste deel van de Kornati eilanden uitgeroepen tot een nationaal park in 1980.</p> 
                         <p>Het Nationaal Park Kornati telt ongeveer 220 km2 en bestaat uit 89 eilanden, eilandjes en riffen. </p> 

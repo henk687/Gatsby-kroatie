@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import Img from 'gatsby-image'
 import {ImLocation} from "react-icons/im"
+import {IoMdInformationCircleOutline} from "react-icons/io"
 import {useStaticQuery, graphql} from 'gatsby'
 
 const Testimonials = () => {
@@ -44,7 +45,13 @@ const Testimonials = () => {
                         <p>In het westen ligt de Adriatische Zee, waar de Kroatische territoriale wateren grenzen aan die van Italië.</p>
                     </Testimonial >
                     <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
-                        
+                        <IoMdInformationCircleOutline
+                            css={`
+                                color: #b210a8;
+                                font-size: 2rem;
+                                margin-bottom: 1rem;
+                            `}
+                        />
                         <h3>Turist Grabovac</h3>
                         <p>We verbleven in een bungalow op camping Turist Grabovac.</p>
                         <p>Deze terrassencamping en camping met hellend terrein heeft plaatsen met afbakening, met schaduw, zonder schaduw en met enige schaduw.</p> 

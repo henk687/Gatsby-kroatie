@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import {GiEarthAfricaEurope} from "react-icons/gi"
 import {MdAirplanemodeActive, MdDirectionsCar} from "react-icons/md"
-import {FaMoneyCheck} from "react-icons/fa"
+import {BsFillPeopleFill} from "react-icons/bs"
 
 const StatsData = [
     {
@@ -13,8 +13,19 @@ const StatsData = [
                 `}
             />
         ),
-        title: "Meer dan 100 bestemmingen",
-        desc: "Reis naar meer dan 100 bestemmingen"
+        title: "Republiek Kroatië",
+        desc: "Hoofdstad: Zagreb (792.875 inwoners)"
+    },
+    {
+        icon: (
+            <BsFillPeopleFill 
+                css={`
+                    color: #3af576;
+                `}
+            />
+        ),
+        title: "Aantal inwoners",
+        desc: "4,4 miljoen"
     },
     {
         icon: (
@@ -37,17 +48,6 @@ const StatsData = [
         ),
         title: "Huurauto",
         desc: "We hebben in Kroatië ongeveer 1250 km afgelegd met onze huurauto"
-    },
-    {
-        icon: (
-            <FaMoneyCheck 
-                css={`
-                    color: #3af576;
-                `}
-            />
-        ),
-        title: "De beste aanbiedingen",
-        desc: "Wij bieden de beste prijzen"
     },
 ]
 

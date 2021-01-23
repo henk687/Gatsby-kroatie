@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import Img from 'gatsby-image'
 import {ImLocation} from "react-icons/im"
+import {IoMdInformationCircleOutline} from "react-icons/io"
 import {useStaticQuery, graphql} from 'gatsby'
 
 const Testimonials = () => {
@@ -43,7 +44,13 @@ const Testimonials = () => {
                         <p>Het massief loopt van het Noordwesten nabij Senj tot 145 km Zuidwesterlijker bij de bron van de rivier Zrmanja.</p>
                     </Testimonial>
                     <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
-                        
+                        <IoMdInformationCircleOutline
+                            css={`
+                                color: #b210a8;
+                                font-size: 2rem;
+                                margin-bottom: 1rem;
+                            `}
+                        />
                         <h3>Informatie</h3>
                         <p>Velebit heeft zijn status als nationaal park gekregen vanwege de vele diersoorten die hier leven zoals bijvoorbeeld de bruine beer en de verscheidenheid aan planten waaronder een groot aantal inheemse.  </p>
                         <p>Daarnaast is het berggebied met bergtoppen die boven de 1600/1700 meter uitkomen en van waar je een uitkijkt over de Adriatische zee ook echt prachtig.</p> 

@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import Img from 'gatsby-image'
 import {ImLocation} from "react-icons/im"
+import {IoMdInformationCircleOutline} from "react-icons/io"
 import {useStaticQuery, graphql} from 'gatsby'
 
 const Testimonials = () => {
@@ -42,7 +43,13 @@ const Testimonials = () => {
                         <p>Rastoke is een dorp, gelegen in de stad Slunj. Op zo’n 1,5 rijden van Zagreb in de regio Kordun.</p>
                     </Testimonial>
                     <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
-                        
+                        <IoMdInformationCircleOutline
+                            css={`
+                                color: #b210a8;
+                                font-size: 2rem;
+                                margin-bottom: 1rem;
+                            `}
+                        />
                         <h3>Informatie</h3>
                         <p>Rastoke staat bekend om de goed bewaarde molens, de vele watervallen en de Slunjčica-rivier die hier samenkomt met de rivier de Korana. </p>
                         <p>De Korana rivier ontstaat in het nationaal park Plitvice dat maar 33 km verderop ligt. Het is dan ook niet gek dat Rastoke ook wel “klein Plitvice” wordt genoemd!</p> 

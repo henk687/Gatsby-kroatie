@@ -22,7 +22,7 @@ const Footer = () => {
                 </FooterLinkItems>
                 <FooterLinkItems>
                     <FooterLinkTitle>Social Media</FooterLinkTitle>
-                    <FooterLink to="/about">Instagram</FooterLink>
+                    <FooterLink to="https://www.instagram.com/awesomevietnamtravel/?hl=nl" target="_blank">Instagram</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
         </FooterContainer>

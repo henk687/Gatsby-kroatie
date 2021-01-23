@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import Img from 'gatsby-image'
 import {ImLocation} from "react-icons/im"
+import {IoMdInformationCircleOutline} from "react-icons/io"
 import {useStaticQuery, graphql} from 'gatsby'
 
 const Testimonials = () => {
@@ -42,7 +43,13 @@ const Testimonials = () => {
                         <p>Het Nationaal Park Plitvicemeren is een nationaal park in de provincie Lika-Senj dicht bij Plitvička Jezera in Kroatië.</p>
                     </Testimonial>
                     <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
-                        
+                        <IoMdInformationCircleOutline
+                            css={`
+                                color: #b210a8;
+                                font-size: 2rem;
+                                margin-bottom: 1rem;
+                            `}
+                        />
                         <h3>Informatie</h3>
                         <p>Plitvice staat bekend om de 90 prachtige watervallen, de 16 smaragdgroene meren en de ongerepte natuur. </p>
                         <p>Vanwege deze bijzondere natuur hebben de Plitvice meren dan ook de status nationaal park gekregen. </p> 
