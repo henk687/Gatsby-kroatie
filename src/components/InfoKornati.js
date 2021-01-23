@@ -77,6 +77,7 @@ const TestimonialsContainer = styled.div`
     color: #000;
     padding: 5rem calc((100vw - 1300px) / 2);
     height: 100%;
+    z-index: 2;
 `
 
 const Topline = styled.p`

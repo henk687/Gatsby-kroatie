@@ -78,6 +78,7 @@ const TestimonialsContainer = styled.div`
     color: #000;
     padding: 5rem calc((100vw - 1300px) / 2);
     height: 100%;
+    z-index: 2;
 `
 
 const Topline = styled.p`
@@ -100,6 +101,7 @@ const Contentwrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
+    z-index: 2;
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;

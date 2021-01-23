@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 import styled from "styled-components"
 import {useStaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
@@ -81,6 +82,7 @@ const ProductsContainer = styled.div`
     padding: 5rem calc((100vw - 1300px) / 2);
     color: #fff;
     background: #181a25;
+    z-index:2
 `
 const ProductsHeading = styled.div`
     font-size: clamp(1.2rem, 5vw, 3rem);

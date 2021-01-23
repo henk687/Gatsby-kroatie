@@ -39,6 +39,7 @@ const FooterContainer = styled.div`
     background: #fafafb;*/
     color: #fff;
     background: #020312;
+    z-index: 2;
 `
 
 const FooterDesc = styled.div`

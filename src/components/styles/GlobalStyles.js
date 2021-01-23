@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
   width: 100%;
   background: #0b345d;
   background-image: linear-gradient(155deg, #020312 0%, #020312 50%, #020312 100%);
+  z-index: -1;
 }
 .wave-white {
   position: relative;
@@ -21,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
   width: 100%;
   background: #0b345d;
   background-image: linear-gradient(155deg, #181a25 0%, #181a25 50%, #181a25 100%);
+  z-index: -1;
 }
 .wave-transparent {
   position: absolute;
@@ -29,6 +31,7 @@ export const GlobalStyle = createGlobalStyle`
   width: 100%;
   background: transparent;
   background-image: linear-gradient(155deg, transparent 0%, transparent 50%, transparent 100%);
+  z-index: -1;
 }
 .wave-transparent2 {
   position: absolute;
@@ -38,6 +41,7 @@ export const GlobalStyle = createGlobalStyle`
   background: transparent;
   background-image: linear-gradient(155deg, transparent 0%, transparent 50%, transparent 100%);
   transform: rotate(180deg);
+  z-index: -1;
 }
 .wave-home {
   position: absolute;

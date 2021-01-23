@@ -4,6 +4,7 @@
     background-color: #181a25;
     z-index: 800;
     position: relative;
+    z-index: 2;
 }
 
 .image-container-black {
