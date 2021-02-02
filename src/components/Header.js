@@ -1,15 +1,25 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, {useState, useEffect} from "react"
 import styled from "styled-components"
 import {FaBars} from "react-icons/fa"
 import {menuData} from "../data/MenuData"
 import { Button } from "./Button"
 
-const Header = () => {
+const Header = ({ toggle }) => {
+ const [navbar, setNavbar] = useState(false) 
+
+ useEffect(() => {
+  if(window.location.pathname) {
+    setNavbar(window.location.pathname)
+  } 
+
+  console.log(window.location.pathname)
+ }, [])
+
   return (
-    <Nav>
+    <Nav navbar={navbar}>
       <NavLink to="/">KROATIË</NavLink>
-      <Bars />
+      <Bars onClick={toggle}/>
       <NavMenu>
         {menuData.map((item, index) => (
           <NavLink to={item.link} key={index}>
@@ -27,7 +37,7 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-  background: transparent;
+  background: ${({ navbar }) => (navbar !== "/" ? "#181a25" : "transparent")};
   height: 80px;
   display: flex;
   justify-content: space-between;
