@@ -65,7 +65,7 @@ const DropdownWrapper = styled.div`
 const DropdownMenu = styled.div`
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 80px);
+    grid-template-rows: repeat(2, 80px);
     text-align: center;
     margin-bottom: 4rem;
 
