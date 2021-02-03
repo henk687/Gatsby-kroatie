@@ -1,5 +1,4 @@
 import React from "react"
-import Email from "../components/Email"
 import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,8 +23,11 @@ const IndexPage = () => (
       </svg>
     </div>
     <Stats />
-    
-    <Email />
+    <div className="wave-white">
+      <svg className="svgwave" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270" >
+      <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="#020312" strokeWidth="120" strokeLinecap="round"/>
+      </svg>
+    </div>
   </Layout>
 )
 
