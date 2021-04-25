@@ -5,7 +5,7 @@ import {ImLocation} from "react-icons/im"
 import {IoMdInformationCircleOutline} from "react-icons/io"
 import {useStaticQuery, graphql} from 'gatsby'
 
-const Testimonials = () => {
+const Info = () => {
     const data = useStaticQuery(graphql`
     query {
         allFile(filter: {ext: {regex: "/(jpg)|(png)|(jepg)/"}, name: {in: ["kroatievlag", "vakantiehuis"]}}) {
@@ -22,7 +22,7 @@ const Testimonials = () => {
       } 
     `)
     return (
-        <TestimonialsContainer>
+        <InfoContainer>
             <Topline data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Bestemming
             </Topline>
@@ -31,7 +31,7 @@ const Testimonials = () => {
             </Description>
             <Contentwrapper>
                 <ColumnOne>
-                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
+                    <Info data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <ImLocation
                             css={`
                                 color: #3fffa8;
@@ -42,8 +42,8 @@ const Testimonials = () => {
                         <h3>Locatie</h3>
                         <p>Velebit is een gebergte in het midden van Kroatië, langs de Dalmatische kust van de Adriatische Zee.</p> 
                         <p>Het massief loopt van het Noordwesten nabij Senj tot 145 km Zuidwesterlijker bij de bron van de rivier Zrmanja.</p>
-                    </Testimonial>
-                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
+                    </Info>
+                    <Info data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <IoMdInformationCircleOutline
                             css={`
                                 color: #b210a8;
@@ -54,7 +54,7 @@ const Testimonials = () => {
                         <h3>Informatie</h3>
                         <p>Velebit heeft zijn status als nationaal park gekregen vanwege de vele diersoorten die hier leven zoals bijvoorbeeld de bruine beer en de verscheidenheid aan planten waaronder een groot aantal inheemse.  </p>
                         <p>Daarnaast is het berggebied met bergtoppen die boven de 1600/1700 meter uitkomen en van waar je een uitkijkt over de Adriatische zee ook echt prachtig.</p> 
-                    </Testimonial>
+                    </Info>
                 </ColumnOne>
                 <ColumnTwo data-sal="slide-down" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                     {data.allFile.edges.map((image, key) => (
@@ -63,13 +63,13 @@ const Testimonials = () => {
                     
                 </ColumnTwo>
             </Contentwrapper>
-        </TestimonialsContainer>
+        </InfoContainer>
     )
 }
 
 export default Testimonials
 
-const TestimonialsContainer = styled.div`
+const Info = styled.div`
     width: 100%;
     /*background: #fcfcfc;*/
     background: #020312;
@@ -110,7 +110,7 @@ const ColumnOne = styled.div`
     grid-template-rows: 1fr 1fr;
 `
 
-const Testimonial = styled.div`
+const Info = styled.div`
     padding-top: 1rem;
     padding-right: 2rem;
 

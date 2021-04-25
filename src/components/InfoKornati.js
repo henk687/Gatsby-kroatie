@@ -5,7 +5,7 @@ import {ImLocation} from "react-icons/im"
 import {IoMdInformationCircleOutline} from "react-icons/io"
 import {useStaticQuery, graphql} from 'gatsby'
 
-const Testimonials = () => {
+const Info = () => {
     const data = useStaticQuery(graphql`
     query {
         allFile(filter: {ext: {regex: "/(jpg)|(png)|(jepg)/"}, name: {in: ["kroatievlag", "vakantiehuis"]}}) {
@@ -22,7 +22,7 @@ const Testimonials = () => {
       } 
     `)
     return (
-        <TestimonialsContainer>
+        <InfoContainer>
             <Topline data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                 Bestemming
             </Topline>
@@ -31,7 +31,7 @@ const Testimonials = () => {
             </Description>
             <Contentwrapper>
                 <ColumnOne>
-                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
+                    <Info data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <ImLocation
                             css={`
                                 color: #3fffa8;
@@ -41,8 +41,8 @@ const Testimonials = () => {
                         />
                         <h3>Locatie</h3>
                         <p>de Kornati-archipel is een Kroatische archipel in de Adriatische Zee, ten zuiden van de stad Zadar.</p>
-                    </Testimonial>
-                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
+                    </Info>
+                    <Info data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <IoMdInformationCircleOutline
                             css={`
                                 color: #b210a8;
@@ -55,7 +55,7 @@ const Testimonials = () => {
                         <p>Het Nationaal Park Kornati telt ongeveer 220 km2 en bestaat uit 89 eilanden, eilandjes en riffen. </p> 
                         <p>Het Nationaal Park Kornati is vernoemd naar het grootste eiland binnen de groep - Kornat.</p> 
                         <p>Op de rotsen bloeit er plantelven. Naast het kristalhelder water, kunt u ook allerlei riffen, schaaldieren en vele soorten vis ontdekken.</p>
-                    </Testimonial>
+                    </Info>
                 </ColumnOne>
                 <ColumnTwo data-sal="slide-down" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                     {data.allFile.edges.map((image, key) => (
@@ -64,13 +64,13 @@ const Testimonials = () => {
                     
                 </ColumnTwo>
             </Contentwrapper>
-        </TestimonialsContainer>
+        </InfoContainer>
     )
 }
 
-export default Testimonials
+export default Info
 
-const TestimonialsContainer = styled.div`
+const InfoContainer = styled.div`
     width: 100%;
     /*background: #fcfcfc;*/
     background: #181a25;
@@ -111,7 +111,7 @@ const ColumnOne = styled.div`
     grid-template-rows: 1fr 1fr;
 `
 
-const Testimonial = styled.div`
+const Info = styled.div`
     padding-top: 1rem;
     padding-right: 2rem;
 

@@ -5,7 +5,7 @@ import {ImLocation} from "react-icons/im"
 import {IoMdInformationCircleOutline} from "react-icons/io"
 import {useStaticQuery, graphql} from 'gatsby'
 
-const Testimonials = () => {
+const Info = () => {
     const data = useStaticQuery(graphql`
     query {
         allFile(filter: {ext: {regex: "/(jpg)|(png)|(jepg)/"}, name: {in: ["kroatievlag", "vakantiehuis"]}}) {
@@ -22,7 +22,7 @@ const Testimonials = () => {
       } 
     `)
     return (
-        <TestimonialsContainer>
+        <InfoContainer>
             <Topline data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                     Bestemming
             </Topline>
@@ -31,7 +31,7 @@ const Testimonials = () => {
             </Description>
             <Contentwrapper>
                 <ColumnOne>
-                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
+                    <Info data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <ImLocation
                             css={`
                                 color: #3fffa8;
@@ -43,8 +43,8 @@ const Testimonials = () => {
                         <p>Kroatië, officieel Republiek Kroatië, is een land in Zuidoost-Europa.</p>
                         <p>Het grenst aan Slovenië en Hongarije in het noorden, Bosnië en Montenegro in het zuiden en Servië in het oosten.</p> 
                         <p>In het westen ligt de Adriatische Zee, waar de Kroatische territoriale wateren grenzen aan die van Italië.</p>
-                    </Testimonial >
-                    <Testimonial data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
+                    </Info>
+                    <Info data-sal="slide-right" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                         <IoMdInformationCircleOutline
                             css={`
                                 color: #b210a8;
@@ -56,7 +56,7 @@ const Testimonials = () => {
                         <p>We verbleven in een bungalow op camping Turist Grabovac.</p>
                         <p>Deze terrassencamping en camping met hellend terrein heeft plaatsen met afbakening, met schaduw, zonder schaduw en met enige schaduw.</p> 
                         <p>Er is mogelijkheid tot het huren van kamers, Studio's, appartementen en bungalows.</p>
-                    </Testimonial>
+                    </Info>
                 </ColumnOne>
                 <ColumnTwo data-sal="slide-down" data-sal-duration= "2000" data-sal-delay="300" data-sal-easing="ease">
                     {data.allFile.edges.map((image, key) => (
@@ -65,13 +65,13 @@ const Testimonials = () => {
                     
                 </ColumnTwo>
             </Contentwrapper>
-        </TestimonialsContainer>
+        </InfoContainer>
     )
 }
 
-export default Testimonials
+export default Info
 
-const TestimonialsContainer = styled.div`
+const InfoContainer = styled.div`
     width: 100%;
     /*background: #fcfcfc;*/
     background: #020312;
@@ -113,7 +113,7 @@ const ColumnOne = styled.div`
     grid-template-rows: 1fr 1fr;
 `
 
-const Testimonial = styled.div`
+const Info = styled.div`
     padding-top: 1rem;
     padding-right: 2rem;
 
